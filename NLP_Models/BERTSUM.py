@@ -14,7 +14,7 @@ class RNNEncoder(nn.Module):
 
         hidden_size = self.hidden_size // num_directions
 
-        # self.rnn = LayerNormLSTM(
+        # self.rnn = LayerNormLSTM( #author's  LSTM Model
         #     input_size=input_size,
         #     hidden_size=hidden_size,
         #     num_layers=num_layers,
