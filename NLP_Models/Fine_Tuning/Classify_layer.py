@@ -5,7 +5,6 @@ class RNNClassifier(nn.Module):
     def __init__(self, bidirectional=True, num_layers=1, input_size=768,
                  hidden_size=768, dropout=0.1, num_class = 5):
         super(RNNClassifier, self).__init__()
-        print
 
         self.num_directions = 2 if bidirectional else 1
         assert hidden_size % self.num_directions == 0
