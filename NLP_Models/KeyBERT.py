@@ -36,4 +36,3 @@ for res in res_kds:
     rslt = BERT(dic_res[res])
     df_rslt[res] = rslt
 
-df_rslt.to_excel("./drive/My Drive/Colab Notebooks LAmount/UDX/DATA/BUEV_RSLT_1012.xlsx")
