@@ -32,7 +32,6 @@ NLP Models
 
 
 # References
-
 CV Models
 - [FaceNet]()
 - [PoseNet]()
@@ -53,16 +52,3 @@ NLP Models
 - KeyBERT
 - ROBERTA
 - ELECTRA
-
-# 결과
-
-결과 비교를 위한 Test Dataset은 [Naver sentiment movie corpus](https://github.com/e9t/nsmc) 를 활용하였습니다.
-
-
-- 작성중
-
-## Reference
-- [KoELECTRA](https://github.com/monologg/KoELECTRA)
-- [Binary Classification](https://github.com/na2na8/ELECTRABinaryClassification)
-- [Huggingface Documents](https://huggingface.co/docs/transformers/model_doc/electra)
-- [Naver sentiment movie corpus](https://github.com/e9t/nsmc)
